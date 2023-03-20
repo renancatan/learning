@@ -1,0 +1,13 @@
+Na pasta do projeto 
+Npm init 
+npm install sqs-consumer 
+sudo python3 -m pip install localstack
+localstack start
+
+import {consumer} from “sqs-consumer”; 
+
+app = consumer.create( 
+
+---rodar sqs separado do docker 
+npm install localstack
+npm start localstack
